@@ -1,31 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container">
-        <form class="login-form">
-            <p class="title">Login</p>
-            <input 
-            class="input" 
-            type="email" 
-            id="email" 
-            name="email" 
-            placeholder="Email"
-            required>
-            <input 
-            placeholder="Password" 
-            class="input" 
-            type="password" 
-            id="password" 
-            name="password" 
-            required>
-            <button class="loginbtn" type="submit">Login</button>
-        </form>
+      <form class="login-form">
+        <p class="title">Login</p>
+        <input type="email" placeholder="Email" required />
+        <input type="text" placeholder="Password" required />
+        <div class="forgotPass-RemmberMe-Container">
+          <input class="item item-1" type="checkbox" name="" id="" />
+          <label class="item item-2">Remember me?</label>
+          <a class="item item-3" href=".">Forgot password?</a>
+        </div>
+        <button class="loginbtn" type="submit">Login</button>
+        <p class="or">----------------------------------Or----------------------------------</p>
+        <div class="otherLogin-Container">
+          <a href="."><img src="public/icons8-google-50.png" alt="" /></a>
+          <a href="."><img src="public/icons8-facebook-50.png" alt="" /></a>
+          <a href="."><img src="public/icons8-x-50.png" alt="" /></a>
+        </div>
+      </form>
     </div>
-</body>
+  </body>
 </html>

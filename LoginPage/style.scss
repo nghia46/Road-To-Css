@@ -30,7 +30,8 @@ html {
           font-size: 50px;
           color: white;
         }
-        .input {
+        input[type="email"],
+        input[type="text"] {
           margin: 1rem 3rem 1rem 3rem;
           width: auto;
           padding: 15px;
@@ -57,6 +58,42 @@ html {
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
             0 6px 20px 0 rgba(0, 0, 0, 0.19);
           transition: all 0.2s ease;
+        }
+        .or {
+          display: flex;
+          justify-content: center;
+          color: white;
+        }
+        .forgotPass-RemmberMe-Container {
+          display: flex;
+          align-items: flex-start;
+          .item {
+            margin: 0.1rem;
+            &-1 {
+              margin-top: 0.2rem;
+              margin-left: 3rem;
+              width: 1rem;
+              height: 1rem;
+            }
+            &-2 {
+              color: white;
+              margin-right: 10rem;
+            }
+            &-3 {
+              color: white;
+              text-decoration: none;
+            }
+          }
+        }
+        .otherLogin-Container {
+          display: flex;
+          justify-content: center;
+          a {
+            margin: 0 0.5rem 0 0.5rem;
+            img{
+              filter: invert(100%);
+            }
+          }
         }
       }
     }
