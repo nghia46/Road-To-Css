@@ -1,0 +1,194 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html .main-container,
+body .main-container {
+  width: 550px;
+  height: 558px;
+  padding: 8px 48px 64px;
+  line-height: 24px;
+}
+html .main-container .title-container,
+body .main-container .title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 24px;
+  text-align: center;
+}
+html .main-container .title-container .title,
+body .main-container .title-container .title {
+  color: #262626;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.8px;
+  margin: 8px 0px 0px;
+  text-align: center;
+}
+html .main-container .title-container .note,
+body .main-container .title-container .note {
+  color: #262626;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 19.6px;
+  margin: 8px 0px 0px;
+  text-align: center;
+}
+html .main-container .title-container .logo,
+body .main-container .title-container .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+}
+html .main-container .title-container .logo img[src="/public/logo.png"],
+body .main-container .title-container .logo img[src="/public/logo.png"] {
+  width: 57px;
+  height: 67px;
+}
+html .main-container .login-container,
+body .main-container .login-container {
+  display: flex;
+  flex-direction: column;
+  line-height: 24px;
+  padding: 40px 0 0;
+  text-align: center;
+}
+html .main-container .login-container .email-container,
+body .main-container .login-container .email-container {
+  display: flex;
+  flex-direction: column;
+  line-height: 24px;
+  text-align: center;
+}
+html .main-container .login-container .email-container input[type=email],
+body .main-container .login-container .email-container input[type=email] {
+  background-color: #fff;
+  border-color: #ccc;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 0.8px;
+  color: #262626;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  line-height: 21px;
+  padding: 12px 8px 12px 12px;
+}
+html .main-container .login-container .email-container button[type=submit],
+body .main-container .login-container .email-container button[type=submit] {
+  font-family: "Inter", sans-serif;
+  align-items: flex-start;
+  background-color: #4d64ff;
+  border-color: #4d64ff;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 0.8px;
+  color: #fff;
+  font-weight: 600;
+  font-size: medium;
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+  line-height: 24px;
+  margin: 16px 0 0;
+  padding: 12px;
+  text-align: center;
+}
+html .main-container .login-container .or-container,
+body .main-container .login-container .or-container {
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+html .main-container .login-container .or-container .or,
+body .main-container .login-container .or-container .or {
+  color: #a6a6a6;
+  font-size: 14px;
+  padding: 0 16px;
+  font-family: "Inter", sans-serif;
+}
+html .main-container .login-container .or-container .line,
+body .main-container .login-container .or-container .line {
+  flex: 1;
+  height: 0.5px;
+  background: #a6a6a6;
+}
+html .main-container .login-container .other-login,
+body .main-container .login-container .other-login {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  line-height: 24px;
+  text-align: center;
+}
+html .main-container .login-container .other-login .login-1,
+body .main-container .login-container .other-login .login-1 {
+  width: 270px;
+  height: 50px;
+  display: flex;
+  align-items: flex-start;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: medium;
+  background-color: #fff;
+  border-color: #a6a6a6;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 0.8px;
+  justify-content: center;
+  line-height: 24px;
+  padding: 12px;
+}
+html .main-container .login-container .other-login .login-2,
+body .main-container .login-container .other-login .login-2 {
+  width: 270px;
+  height: 50px;
+  font-weight: 600;
+  font-size: medium;
+  display: flex;
+  align-items: flex-start;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  background-color: #fff;
+  border-color: #a6a6a6;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 0.8px;
+  justify-content: center;
+  line-height: 24px;
+  padding: 12px;
+  margin: 0 0 0 0 8px;
+}
+html .main-container .login-container .other-login .login img,
+body .main-container .login-container .other-login .login img {
+  width: 20px;
+  height: 20px;
+  margin: 0 8px 0 0;
+  text-align: center;
+  line-height: 24px;
+  font-weight: 600;
+}
+html .main-container .login-container .signUp-container .signUp,
+body .main-container .login-container .signUp-container .signUp {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  color: #a6a6a6;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+}
+html .main-container .login-container .signUp-container .signUp-2,
+body .main-container .login-container .signUp-container .signUp-2 {
+  color: #4d64ff;
+}/*# sourceMappingURL=style.css.map */

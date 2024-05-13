@@ -1,0 +1,179 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .main-container {
+    width: 550px;
+    height: 558px;
+    padding: 8px 48px 64px;
+    line-height: 24px;
+    .title-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      line-height: 24px;
+      text-align: center;
+      .title {
+        color: #262626;
+        font-family: "Inter", sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 28.8px;
+        margin: 8px 0px 0px;
+        text-align: center;
+      }
+      .note {
+        color: #262626;
+        font-family: "Inter", sans-serif;
+        font-size: 14px;
+        line-height: 19.6px;
+        margin: 8px 0px 0px;
+        text-align: center;
+      }
+      .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+        img[src="/public/logo.png"] {
+          width: 57px;
+          height: 67px;
+        }
+      }
+    }
+    .login-container {
+      display: flex;
+      flex-direction: column;
+      line-height: 24px;
+      padding: 40px 0 0;
+      text-align: center;
+      .email-container {
+        display: flex;
+        flex-direction: column;
+        line-height: 24px;
+        text-align: center;
+        input[type="email"] {
+          background-color: #fff;
+          border-color: #ccc;
+          border-radius: 5px;
+          border-style: solid;
+          border-width: 0.8px;
+          color: #262626;
+          font-size: 15px;
+          font-family: "Inter", sans-serif;
+          line-height: 21px;
+          padding: 12px 8px 12px 12px;
+        }
+        button[type="submit"] {
+          font-family: "Inter", sans-serif;
+          align-items: flex-start;
+          background-color: #4d64ff;
+          border-color: #4d64ff;
+          border-radius: 5px;
+          border-style: solid;
+          border-width: 0.8px;
+          color: #fff;
+          font-weight: 600;
+          font-size: medium;
+          display: flex;
+          justify-self: center;
+          justify-content: center;
+          line-height: 24px;
+          margin: 16px 0 0;
+          padding: 12px;
+          text-align: center;
+        }
+      }
+      .or-container {
+        margin-top: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .or {
+          color: #a6a6a6;
+          font-size: 14px;
+          padding: 0 16px;
+          font-family: "Inter", sans-serif;
+        }
+        .line {
+          flex: 1;
+          height: 0.5px;
+          background: #a6a6a6;
+        }
+      }
+      .other-login {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        line-height: 24px;
+        text-align: center;
+        .login {
+          &-1 {
+            width: 270px;
+            height: 50px;
+            display: flex;
+            align-items: flex-start;
+            text-align: center;
+            font-family: "Inter", sans-serif;
+            font-weight: 600;
+            font-size: medium;
+            background-color: #fff;
+            border-color: #a6a6a6;
+            border-radius: 5px;
+            border-style: solid;
+            border-width: 0.8px;
+            justify-content: center;
+            line-height: 24px;
+            padding: 12px;
+          }
+          &-2 {
+            width: 270px;
+            height: 50px;
+            font-weight: 600;
+            font-size: medium;
+            display: flex;
+            align-items: flex-start;
+            text-align: center;
+            font-family: "Inter", sans-serif;
+            background-color: #fff;
+            border-color: #a6a6a6;
+            border-radius: 5px;
+            border-style: solid;
+            border-width: 0.8px;
+            justify-content: center;
+            line-height: 24px;
+            padding: 12px;
+            margin: 0 0 0 0 8px;
+          }
+          img {
+            width: 20px;
+            height: 20px;
+            margin: 0 8px 0 0;
+            text-align: center;
+            line-height: 24px;
+            font-weight: 600;
+          }
+        }
+      }
+      .signUp-container {
+        .signUp {
+          display: flex;
+          justify-content: center;
+          text-decoration: none;
+          font-family: "Inter", sans-serif;
+          color: #a6a6a6;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 21px;
+          &-2{
+            color: #4d64ff;
+          }
+        }
+      }
+    }
+  }
+}
