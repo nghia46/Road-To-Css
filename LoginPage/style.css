@@ -33,19 +33,23 @@ html body .container .login-form .title {
   font-size: 50px;
   color: white;
 }
-html body .container .login-form input[type=email],
-html body .container .login-form input[type=text] {
+html body .container .login-form .input-container {
   margin: 1rem 3rem 1rem 3rem;
   width: auto;
   padding: 15px;
   outline: none;
-  border: none;
+  border: 1px solid #fff;
   font-size: 15px;
   border-radius: 45px;
   background: rgba(255, 255, 255, 0.168627451);
   color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transition: all 0.2s ease;
+}
+html body .container .login-form input[type=email],
+html body .container .login-form input[type=text] {
+  width: 100%;
+  padding: 5px 12px;
 }
 html body .container .login-form .loginbtn {
   margin: 1rem 3rem 1rem 3rem;

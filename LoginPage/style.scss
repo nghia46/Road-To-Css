@@ -30,13 +30,12 @@ html {
           font-size: 50px;
           color: white;
         }
-        input[type="email"],
-        input[type="text"] {
+        .input-container {
           margin: 1rem 3rem 1rem 3rem;
           width: auto;
           padding: 15px;
           outline: none;
-          border: none;
+          border: 1px solid #fff;
           font-size: 15px;
           border-radius: 45px;
           background: #ffffff2b;
@@ -44,6 +43,11 @@ html {
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
             0 6px 20px 0 rgba(0, 0, 0, 0.19);
           transition: all 0.2s ease;
+        }
+        input[type="email"],
+        input[type="text"] {
+          width: 100%;
+          padding: 5px 12px;
         }
         .loginbtn {
           margin: 1rem 3rem 1rem 3rem;

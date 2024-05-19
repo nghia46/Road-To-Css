@@ -1,0 +1,46 @@
+body {
+  background-color: #282a35;
+}
+body .LoginFullPage {
+  display: flex;
+  justify-content: center;
+  line-height: 24px;
+}
+body .LoginFullPage .LeftSideContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-color: #282a35;
+  color: #fff;
+  line-height: 24px;
+  padding: 0 60px 60px;
+}
+body .LoginFullPage .LeftSideContainer .LeftSideContent {
+  background-image: url("https://profile.w3schools.com/static/media/rocket.56e3c3ee4b17f9c1ee43.svg");
+  background-position: 80% 70%;
+  background-size: 50%;
+  color: #fff;
+  line-height: 24px;
+  margin: 60px 0 0;
+  padding: 0 80px 80px 0;
+}
+body .LoginFullPage .LeftSideContainer .LeftSideContent .LeftSideTitle {
+  color: #fff;
+  font-size: 39.28px;
+  font-weight: 500;
+  line-height: 47.136px;
+  margin: 0 0 8px;
+}
+body .LoginFullPage .LeftSideContainer .LeftSideContent .LeftSideTitle span {
+  color: #fff;
+  font-size: 39.28px;
+  font-weight: 500;
+  line-height: 47.163px;
+}
+body .LoginFullPage .LeftSideContainer .LeftSideContent .LeftSideSubtitle {
+  color: #fff;
+  font-size: 24px;
+  line-height: 36px;
+  margin: 0 0 16px;
+}/*# sourceMappingURL=style.css.map */

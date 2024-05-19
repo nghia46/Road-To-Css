@@ -1,0 +1,11 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container{
+        line-height: 24px;
+        margin: 0 180px;
+        padding: 16px;
+    }
+}
