@@ -6,15 +6,15 @@ html {
   align-items: center;
 }
 html body {
-  background-image: url("./public/BG.jpg");
-  background-size: 100%;
-  background-position: center -11rem;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  background-image: url("./public/BG2.png");
+  background-size: cover; /* Make the background cover the entire element */
+  background-position: center; /* Center the background image */
+  background-attachment: fixed; /* Keep the background fixed in place */
+  background-repeat: no-repeat; /* Prevent the background from repeating */
 }
 html body .container {
-  width: 500px;
-  height: 500px;
+  width: auto;
+  height: auto;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -25,6 +25,7 @@ html body .container {
 html body .container .login-form {
   display: flex;
   flex-direction: column;
+  margin: 0 1rem 0 1rem;
 }
 html body .container .login-form .title {
   margin: auto;
@@ -34,7 +35,7 @@ html body .container .login-form .title {
   color: white;
 }
 html body .container .login-form .input-container {
-  margin: 1rem 3rem 1rem 3rem;
+  margin: 0.5rem 0 0.5rem 0;
   width: auto;
   padding: 15px;
   outline: none;
@@ -46,13 +47,31 @@ html body .container .login-form .input-container {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transition: all 0.2s ease;
 }
-html body .container .login-form input[type=email],
-html body .container .login-form input[type=text] {
+html body .container .login-form .input-container input[type=email],
+html body .container .login-form .input-container input[type=text] {
   width: 100%;
   padding: 5px 12px;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
+  color: rgb(59, 59, 59);
+}
+html body .container .login-form .input-container input[type=email]:hover,
+html body .container .login-form .input-container input[type=text]:hover,
+html body .container .login-form .input-container input[type=email]:focus,
+html body .container .login-form .input-container input[type=text]:focus {
+  border: none;
+  outline: none;
+}
+html body .container .login-form .input-container input[type=email]::-moz-placeholder, html body .container .login-form .input-container input[type=text]::-moz-placeholder {
+  color: #414141;
+}
+html body .container .login-form .input-container input[type=email]::placeholder,
+html body .container .login-form .input-container input[type=text]::placeholder {
+  color: #414141;
 }
 html body .container .login-form .loginbtn {
-  margin: 1rem 3rem 1rem 3rem;
+  margin: 1rem 0 1rem 0;
   width: auto;
   padding: 15px;
   outline: none;
@@ -78,7 +97,6 @@ html body .container .login-form .forgotPass-RemmberMe-Container .item {
 }
 html body .container .login-form .forgotPass-RemmberMe-Container .item-1 {
   margin-top: 0.2rem;
-  margin-left: 3rem;
   width: 1rem;
   height: 1rem;
 }
@@ -95,7 +113,7 @@ html body .container .login-form .otherLogin-Container {
   justify-content: center;
 }
 html body .container .login-form .otherLogin-Container a {
-  margin: 0 0.5rem 0 0.5rem;
+  padding: 0 10px 0 10px;
 }
 html body .container .login-form .otherLogin-Container a img {
   filter: invert(100%);
