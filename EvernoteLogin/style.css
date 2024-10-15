@@ -48,8 +48,8 @@ body .main-container .title-container .logo {
   width: 100px;
   height: 100px;
 }
-html .main-container .title-container .logo img[src="/public/logo.png"],
-body .main-container .title-container .logo img[src="/public/logo.png"] {
+html .main-container .title-container .logo img,
+body .main-container .title-container .logo img {
   width: 57px;
   height: 67px;
 }

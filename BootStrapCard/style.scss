@@ -1,0 +1,48 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: #f4f4f4;
+}  
+.card{
+    display: flex row;
+    width: 268px;
+    height: fit-content;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    .card-body{ 
+        display: flex;          // Apply flexbox to enable the gap property
+        flex-direction: column; // Ensure vertical layout
+        padding: 10px;
+        gap: 10px;              // Add gap between items (adjust as needed)
+        box-sizing: border-box;
+        .card-title{
+            margin:0;
+            font-size: 22px;
+            color: #3f3f3f;
+        }
+        .card-text{
+            margin:0;
+            color: #666;
+        }
+        a.btn-primary{
+            background-color: #0044ff;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 8px;
+            text-align: center;
+            display: block;
+            width: auto;           
+            max-width: 100%;       
+            box-sizing: border-box;
+
+            &:hover{
+                background-color: #0033cc;
+            }
+            &:active{
+                background-color: #0022aa;
+            }
+        }
+    }
+}
